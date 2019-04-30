@@ -145,7 +145,7 @@ pipeline {
         PROJECT_ID = '<YOUR_PROJECT_ID>'
         CLUSTER_NAME = '<YOUR_CLUSTER_NAME>'
         ZONE = '<YOUR_CLUSTER_ZONE>'
-        CREDENTIALS_ID = '<YOUR_CREDENTIAS_ID>'
+        CREDENTIALS_ID = '<YOUR_CREDENTIALS_ID>'
     }
     stages {
         stage('Deploy to GKE') {
